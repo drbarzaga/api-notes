@@ -1,0 +1,99 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Notes API ",
+    "dateExported": "2023-09-29T14:22:12.355Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8ef7997a-65fa-4de1-b2a1-f99fa31779d6",
+            "colId": "05086902-c932-4a0f-b200-14652b7f3f67",
+            "containerId": "",
+            "name": "Get Notes",
+            "url": "http://localhost:3000/api/notes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-29T13:22:55.259Z",
+            "modified": "2023-09-29T13:22:55.259Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "575718ca-99b9-4828-8ba9-782c171ed427",
+            "colId": "05086902-c932-4a0f-b200-14652b7f3f67",
+            "containerId": "",
+            "name": "Create Note",
+            "url": "http://localhost:3000/api/notes",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-29T13:23:50.403Z",
+            "modified": "2023-09-29T13:23:50.403Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"First note\",\n  \"description\": \"Description for the first note.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "37c6c96b-38dc-42d8-8afc-41fc3e1c9bf0",
+            "colId": "05086902-c932-4a0f-b200-14652b7f3f67",
+            "containerId": "",
+            "name": "Get Note Details",
+            "url": "http://localhost:3000/api/notes/6516d0653ea84c08582bcb99",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-09-29T13:24:24.002Z",
+            "modified": "2023-09-29T13:26:03.024Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "76739340-020d-4c29-ad60-c20dacc4d5f8",
+            "colId": "05086902-c932-4a0f-b200-14652b7f3f67",
+            "containerId": "",
+            "name": "Update Note",
+            "url": "http://localhost:3000/api/notes/6516d0653ea84c08582bcb99",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-09-29T13:25:11.164Z",
+            "modified": "2023-09-29T13:26:07.712Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"First note updated\",\n  \"description\": \"Description for the first note updated.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "67592422-ab38-4b27-aeba-73683dc5dafb",
+            "colId": "05086902-c932-4a0f-b200-14652b7f3f67",
+            "containerId": "",
+            "name": "Delete Note",
+            "url": "http://localhost:3000/api/notes/6516d0653ea84c08582bcb99",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-09-29T13:25:39.907Z",
+            "modified": "2023-09-29T13:26:11.689Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
