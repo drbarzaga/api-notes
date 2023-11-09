@@ -28,7 +28,7 @@ $ yarn run build
 
 ## Environment Variables
 ```
-Create a .env file in the root and define these vars there:
+Create a .env file in the root copy values from the .env.example file ane set the properly values
 PORT   // Port to run the server
 DATABASE_URL // MongoDB Database URL connection string
 ```
