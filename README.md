@@ -26,6 +26,13 @@ $ yarn run start
 $ yarn run build
 ```
 
+## Environment Variables
+```
+Create a .env file in the root and define these vars there:
+PORT   // Port to run the server
+DATABASE_URL // MongoDB Database URL connection string
+```
+
 ## EndPoints
 
 - Get all notes -- GET /api/notes
